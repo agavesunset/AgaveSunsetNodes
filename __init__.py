@@ -1,6 +1,6 @@
 """AgaveSunset custom nodes for ComfyUI."""
 
- codex/build-comfyui-node-type_agavesunset-ldjebk
+
 from .calculate_AgaveSunset import CalculateAgaveSunset
 from .type_AgaveSunset import TypeAgaveSunset
 
