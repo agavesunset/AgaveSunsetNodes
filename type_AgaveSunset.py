@@ -1,34 +1,61 @@
-"""Node definitions for AgaveSunset custom ComfyUI nodes."""
-
-from __future__ import annotations
-
-
 class TypeAgaveSunset:
-    """Combine common primitive type widgets into a single node."""
+    """
+    A compact node that merges four common parameter widgets into one:
+    - Int
+    - Float
+    - String
+    - Boolean
+
+    It simply passes the inputs through as outputs, so you can feed them
+    to other nodes without creating four separate parameter nodes.
+    """
+
+    def __init__(self):
+        pass
 
     @classmethod
-    def INPUT_TYPES(cls):
+    def INPUT_TYPES(s):
         return {
             "required": {
-                "float_value": ("FLOAT", {"default": 0.0, "step": 0.01}),
-                "boolean_value": ("BOOLEAN", {"default": False}),
-                "string_value": ("STRING", {"default": ""}),
-                "int_value": ("INT", {"default": 0}),
-            }
+                "int_value": ("INT", {
+                    "default": 0,
+                    "min": -2147483648,
+                    "max": 2147483647,
+                    "step": 1,
+                    "display": "number"
+                }),
+                "float_value": ("FLOAT", {
+                    "default": 0.0,
+                    "min": -1e9,
+                    "max": 1e9,
+                    "step": 0.01,
+                    "round": 0.001,
+                    "display": "number"
+                }),
+                "string_value": ("STRING", {
+                    "multiline": False,
+                    "default": ""
+                }),
+                "boolean_value": ("BOOLEAN", {
+                    "default": False
+                }),
+            },
         }
 
-    RETURN_TYPES = ("FLOAT", "BOOLEAN", "STRING", "INT")
-    RETURN_NAMES = ("float", "boolean", "string", "int")
-    FUNCTION = "produce"
-    CATEGORY = "AgaveSunset"
+    RETURN_TYPES = ("INT", "FLOAT", "STRING", "BOOLEAN")
+    RETURN_NAMES = ("int", "float", "string", "boolean")
+    FUNCTION = "pass_through"
+    CATEGORY = "nodes_AgaveSunset"
 
-    def produce(
-        self,
-        float_value: float,
-        boolean_value: bool,
-        string_value: str,
-        int_value: int,
-    ):
-        """Return the configured primitive values."""
+    def pass_through(self, int_value, float_value, string_value, boolean_value):
+        # No processing: just return the values as-is
+        return (int(int_value), float(float_value), str(string_value), bool(boolean_value))
 
-        return float_value, boolean_value, string_value, int_value
+
+NODE_CLASS_MAPPINGS = {
+    "TypeAgaveSunset": TypeAgaveSunset
+}
+
+NODE_DISPLAY_NAME_MAPPINGS = {
+    "TypeAgaveSunset": "type_AgaveSunset"
+}
