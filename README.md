@@ -23,7 +23,7 @@ It is used for selecting among multiple output routes, and only the route you se
 
 ### math_AgaveSunset : 
 Used to execute manually entered expressions.
-![show](preview/Show_AgaveSunset.png)  
+![show](preview/math_AgaveSunset.png)  
 
 ### Help
 The implementation of some code references "Show Text 🐍" and "Math Expression 🐍" from the custom-scripts plugin.
