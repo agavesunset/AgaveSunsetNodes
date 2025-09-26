@@ -18,3 +18,6 @@ There are currently five nodes in total, and flexible logical operations can be 
 
 ### Show_AgaveSunset : Used to display four types of values.
 ![show](preview/Show_AgaveSunset.png)  
+
+###Help
+The implementation of some code references "Show Text 🐍" and "Math Expression 🐍" from the custom-scripts plugin.
