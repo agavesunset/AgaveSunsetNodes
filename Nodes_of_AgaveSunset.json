@@ -1,0 +1,2193 @@
+{
+  "id": "647fcbab-2a04-4292-aa1b-8a97d7fa9cd9",
+  "revision": 0,
+  "last_node_id": 38,
+  "last_link_id": 29,
+  "nodes": [
+    {
+      "id": 10,
+      "type": "Show_AgaveSunset",
+      "pos": [
+        19168.505859375,
+        8173.06201171875
+      ],
+      "size": [
+        255.2054901123047,
+        146.09878540039062
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 4
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show_AgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "T r u e"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 11,
+      "type": "Show_AgaveSunset",
+      "pos": [
+        19165.49609375,
+        8369.4033203125
+      ],
+      "size": [
+        255.2054901123047,
+        146.09878540039062
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show_AgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "5 5 . 5 5"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 8,
+      "type": "Show_AgaveSunset",
+      "pos": [
+        19171.19140625,
+        7770.11962890625
+      ],
+      "size": [
+        255.2054901123047,
+        146.09878540039062
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 2
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show_AgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "5 5"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 2,
+      "type": "Show_AgaveSunset",
+      "pos": [
+        19173.56640625,
+        7579.23974609375
+      ],
+      "size": [
+        255.2054901123047,
+        146.09878540039062
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show_AgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "5 5 . 5 5"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 7,
+      "type": "Transforms_input_AgaveSunset",
+      "pos": [
+        18712.806640625,
+        7734.97412109375
+      ],
+      "size": [
+        299.3794860839844,
+        162
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "value",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "passthrough",
+          "type": "*",
+          "links": [
+            1
+          ]
+        },
+        {
+          "name": "as_int",
+          "type": "INT",
+          "links": [
+            2
+          ]
+        },
+        {
+          "name": "as_float",
+          "type": "FLOAT",
+          "links": [
+            3
+          ]
+        },
+        {
+          "name": "as_bool",
+          "type": "BOOLEAN",
+          "links": [
+            4
+          ]
+        },
+        {
+          "name": "as_string",
+          "type": "STRING",
+          "links": [
+            5
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Transforms_input_AgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "AUTO",
+        "55.55"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 9,
+      "type": "Show_AgaveSunset",
+      "pos": [
+        19176.279296875,
+        7982.70068359375
+      ],
+      "size": [
+        255.2054901123047,
+        146.09878540039062
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show_AgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "5 5 . 5 5"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 15,
+      "type": "Transforms_input_AgaveSunset",
+      "pos": [
+        19608.76953125,
+        7631.626953125
+      ],
+      "size": [
+        299.3794860839844,
+        162
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "value",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "passthrough",
+          "type": "*",
+          "links": null
+        },
+        {
+          "name": "as_int",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "as_float",
+          "type": "FLOAT",
+          "links": [
+            7
+          ]
+        },
+        {
+          "name": "as_bool",
+          "type": "BOOLEAN",
+          "links": null
+        },
+        {
+          "name": "as_string",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Transforms_input_AgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "AUTO",
+        "55.55"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 13,
+      "type": "Show_AgaveSunset",
+      "pos": [
+        20143.208984375,
+        8148.04736328125
+      ],
+      "size": [
+        255.2054901123047,
+        146.09878540039062
+      ],
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 6
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show_AgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "5 5"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 12,
+      "type": "Transforms_input_AgaveSunset",
+      "pos": [
+        19857.193359375,
+        7869.4873046875
+      ],
+      "size": [
+        299.3794860839844,
+        162
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "value",
+          "shape": 7,
+          "type": "*",
+          "link": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "passthrough",
+          "type": "*",
+          "links": null
+        },
+        {
+          "name": "as_int",
+          "type": "INT",
+          "links": [
+            6
+          ]
+        },
+        {
+          "name": "as_float",
+          "type": "FLOAT",
+          "links": null
+        },
+        {
+          "name": "as_bool",
+          "type": "BOOLEAN",
+          "links": null
+        },
+        {
+          "name": "as_string",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Transforms_input_AgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "AUTO",
+        ""
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 19,
+      "type": "Transforms_input_AgaveSunset",
+      "pos": [
+        20572.89453125,
+        7616.15185546875
+      ],
+      "size": [
+        299.3794860839844,
+        162
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "value",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "passthrough",
+          "type": "*",
+          "links": null
+        },
+        {
+          "name": "as_int",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "as_float",
+          "type": "FLOAT",
+          "links": [
+            11
+          ]
+        },
+        {
+          "name": "as_bool",
+          "type": "BOOLEAN",
+          "links": null
+        },
+        {
+          "name": "as_string",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Transforms_input_AgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "AUTO",
+        "55.55"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 21,
+      "type": "Show_AgaveSunset",
+      "pos": [
+        21413.3828125,
+        7783.634765625
+      ],
+      "size": [
+        245.15374755859375,
+        110.87024688720703
+      ],
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 10
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show_AgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "T r u e"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 5,
+      "type": "CompareAgaveSunset",
+      "pos": [
+        21040.306640625,
+        7797.52978515625
+      ],
+      "size": [
+        270,
+        78
+      ],
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "a",
+          "shape": 7,
+          "type": "*",
+          "link": 11
+        },
+        {
+          "name": "b",
+          "shape": 7,
+          "type": "*",
+          "link": 12
+        }
+      ],
+      "outputs": [
+        {
+          "name": "result",
+          "type": "BOOLEAN",
+          "links": [
+            10
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CompareAgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "=="
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 20,
+      "type": "Transforms_input_AgaveSunset",
+      "pos": [
+        20573.90625,
+        7865.99560546875
+      ],
+      "size": [
+        299.3794860839844,
+        162
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "value",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "passthrough",
+          "type": "*",
+          "links": null
+        },
+        {
+          "name": "as_int",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "as_float",
+          "type": "FLOAT",
+          "links": [
+            12
+          ]
+        },
+        {
+          "name": "as_bool",
+          "type": "BOOLEAN",
+          "links": null
+        },
+        {
+          "name": "as_string",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Transforms_input_AgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "AUTO",
+        "55.55"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 24,
+      "type": "Transforms_input_AgaveSunset",
+      "pos": [
+        18679.537109375,
+        8954.1318359375
+      ],
+      "size": [
+        299.3794860839844,
+        162
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "value",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "passthrough",
+          "type": "*",
+          "links": null
+        },
+        {
+          "name": "as_int",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "as_float",
+          "type": "FLOAT",
+          "links": [
+            15
+          ]
+        },
+        {
+          "name": "as_bool",
+          "type": "BOOLEAN",
+          "links": null
+        },
+        {
+          "name": "as_string",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Transforms_input_AgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "AUTO",
+        "55.5"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 26,
+      "type": "Show_AgaveSunset",
+      "pos": [
+        19467.326171875,
+        9001.5712890625
+      ],
+      "size": [
+        210,
+        137.68692016601562
+      ],
+      "flags": {},
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 17
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show_AgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "5 5 . 5"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 23,
+      "type": "Transforms_input_AgaveSunset",
+      "pos": [
+        18680.89453125,
+        8730.599609375
+      ],
+      "size": [
+        299.3794860839844,
+        162
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "value",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "passthrough",
+          "type": "*",
+          "links": null
+        },
+        {
+          "name": "as_int",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "as_float",
+          "type": "FLOAT",
+          "links": [
+            14
+          ]
+        },
+        {
+          "name": "as_bool",
+          "type": "BOOLEAN",
+          "links": null
+        },
+        {
+          "name": "as_string",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Transforms_input_AgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "AUTO",
+        "55.55"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 25,
+      "type": "Transforms_input_AgaveSunset",
+      "pos": [
+        18669.875,
+        9185.9423828125
+      ],
+      "size": [
+        300.7593078613281,
+        162
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "value",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "passthrough",
+          "type": "*",
+          "links": null
+        },
+        {
+          "name": "as_int",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "as_float",
+          "type": "FLOAT",
+          "links": [
+            16
+          ]
+        },
+        {
+          "name": "as_bool",
+          "type": "BOOLEAN",
+          "links": null
+        },
+        {
+          "name": "as_string",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Transforms_input_AgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "AUTO",
+        "55"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 28,
+      "type": "Transforms_input_AgaveSunset",
+      "pos": [
+        19957.96875,
+        9042.1396484375
+      ],
+      "size": [
+        300.7593078613281,
+        162
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "value",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "passthrough",
+          "type": "*",
+          "links": null
+        },
+        {
+          "name": "as_int",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "as_float",
+          "type": "FLOAT",
+          "links": [
+            18
+          ]
+        },
+        {
+          "name": "as_bool",
+          "type": "BOOLEAN",
+          "links": null
+        },
+        {
+          "name": "as_string",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Transforms_input_AgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "AUTO",
+        "55.55"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 30,
+      "type": "MathAgaveSunset",
+      "pos": [
+        20667.41796875,
+        8982.3056640625
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 26,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "a",
+          "shape": 7,
+          "type": "*",
+          "link": 20
+        },
+        {
+          "name": "b",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "c",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            25
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "MathAgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "a*55",
+        [
+          false,
+          true
+        ]
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 31,
+      "type": "MathAgaveSunset",
+      "pos": [
+        20665.560546875,
+        9240.537109375
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 27,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "a",
+          "shape": 7,
+          "type": "*",
+          "link": 22
+        },
+        {
+          "name": "b",
+          "shape": 7,
+          "type": "*",
+          "link": 23
+        },
+        {
+          "name": "c",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            27
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "MathAgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "a*b",
+        [
+          false,
+          true
+        ]
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 32,
+      "type": "Show_AgaveSunset",
+      "pos": [
+        21149.830078125,
+        8723.30078125
+      ],
+      "size": [
+        251.6378936767578,
+        176.9905242919922
+      ],
+      "flags": {},
+      "order": 29,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 26
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show_AgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 33,
+      "type": "Show_AgaveSunset",
+      "pos": [
+        21149.21875,
+        8992.03515625
+      ],
+      "size": [
+        267.9997253417969,
+        187.38462829589844
+      ],
+      "flags": {},
+      "order": 30,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 25
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show_AgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 34,
+      "type": "Show_AgaveSunset",
+      "pos": [
+        21147.62109375,
+        9249.478515625
+      ],
+      "size": [
+        271.13702392578125,
+        184.263671875
+      ],
+      "flags": {},
+      "order": 31,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 27
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show_AgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "3 0 8 5 . 8 0 2 5"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 29,
+      "type": "MathAgaveSunset",
+      "pos": [
+        20663.029296875,
+        8718.5400390625
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "a",
+          "shape": 7,
+          "type": "*",
+          "link": 19
+        },
+        {
+          "name": "b",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "c",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            26
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "MathAgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "a*5",
+        [
+          false,
+          true
+        ]
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 36,
+      "type": "Show_AgaveSunset",
+      "pos": [
+        20670.474609375,
+        9493.5
+      ],
+      "size": [
+        271.13702392578125,
+        184.263671875
+      ],
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 28
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show_AgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "2"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 27,
+      "type": "MathAgaveSunset",
+      "pos": [
+        18659.5390625,
+        9491.283203125
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "a",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "b",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "c",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "MathAgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "选择器  \nfirst_connected为第一个接入的，如果index值不确定\nlast_connected相反\n",
+        [
+          false,
+          true
+        ]
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 35,
+      "type": "MathAgaveSunset",
+      "pos": [
+        19944.93359375,
+        9488.9384765625
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "a",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "b",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "c",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "MathAgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "分路器",
+        [
+          false,
+          true
+        ]
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 17,
+      "type": "MathAgaveSunset",
+      "pos": [
+        18644.9375,
+        8325.33984375
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "a",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "b",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "c",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "MathAgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "自动或自行选择输出任意类型的值",
+        [
+          false,
+          true
+        ]
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 18,
+      "type": "MathAgaveSunset",
+      "pos": [
+        19609.46484375,
+        8337.65625
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "a",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "b",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "c",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "MathAgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "进行类型转换，此流程为浮点数到整型的转换\n",
+        [
+          false,
+          true
+        ]
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 22,
+      "type": "MathAgaveSunset",
+      "pos": [
+        20561.328125,
+        8315.763671875
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "a",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "b",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "c",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "MathAgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "进行常见的大小比较，并且输出布尔值",
+        [
+          false,
+          true
+        ]
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 4,
+      "type": "SwitchAgaveSunset",
+      "pos": [
+        19078.619140625,
+        8935.083984375
+      ],
+      "size": [
+        270,
+        282
+      ],
+      "flags": {},
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "case0",
+          "shape": 7,
+          "type": "*",
+          "link": 14
+        },
+        {
+          "name": "case1",
+          "shape": 7,
+          "type": "*",
+          "link": 15
+        },
+        {
+          "name": "case2",
+          "shape": 7,
+          "type": "*",
+          "link": 16
+        },
+        {
+          "name": "case3",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "case4",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "case5",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "case6",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "case7",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "case8",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "case9",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "default",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": [
+            17
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SwitchAgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        1,
+        "first_connected"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 3,
+      "type": "DemuxAgaveSunset",
+      "pos": [
+        20313.60546875,
+        8986.1083984375
+      ],
+      "size": [
+        270,
+        258
+      ],
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "input",
+          "type": "*",
+          "link": 18
+        }
+      ],
+      "outputs": [
+        {
+          "name": "out0",
+          "type": "*",
+          "links": [
+            19
+          ]
+        },
+        {
+          "name": "out1",
+          "type": "*",
+          "links": [
+            20
+          ]
+        },
+        {
+          "name": "out2",
+          "type": "*",
+          "links": [
+            22,
+            23
+          ]
+        },
+        {
+          "name": "out3",
+          "type": "*",
+          "links": null
+        },
+        {
+          "name": "out4",
+          "type": "*",
+          "links": null
+        },
+        {
+          "name": "out5",
+          "type": "*",
+          "links": null
+        },
+        {
+          "name": "out6",
+          "type": "*",
+          "links": null
+        },
+        {
+          "name": "out7",
+          "type": "*",
+          "links": null
+        },
+        {
+          "name": "out8",
+          "type": "*",
+          "links": null
+        },
+        {
+          "name": "out9",
+          "type": "*",
+          "links": null
+        },
+        {
+          "name": "selected_index",
+          "type": "INT",
+          "links": [
+            28
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DemuxAgaveSunset",
+        "widget_ue_connectable": {},
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        2
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    }
+  ],
+  "links": [
+    [
+      1,
+      7,
+      0,
+      2,
+      0,
+      "*"
+    ],
+    [
+      2,
+      7,
+      1,
+      8,
+      0,
+      "*"
+    ],
+    [
+      3,
+      7,
+      2,
+      9,
+      0,
+      "*"
+    ],
+    [
+      4,
+      7,
+      3,
+      10,
+      0,
+      "*"
+    ],
+    [
+      5,
+      7,
+      4,
+      11,
+      0,
+      "*"
+    ],
+    [
+      6,
+      12,
+      1,
+      13,
+      0,
+      "*"
+    ],
+    [
+      7,
+      15,
+      2,
+      12,
+      0,
+      "*"
+    ],
+    [
+      10,
+      5,
+      0,
+      21,
+      0,
+      "*"
+    ],
+    [
+      11,
+      19,
+      2,
+      5,
+      0,
+      "*"
+    ],
+    [
+      12,
+      20,
+      2,
+      5,
+      1,
+      "*"
+    ],
+    [
+      14,
+      23,
+      2,
+      4,
+      0,
+      "*"
+    ],
+    [
+      15,
+      24,
+      2,
+      4,
+      1,
+      "*"
+    ],
+    [
+      16,
+      25,
+      2,
+      4,
+      2,
+      "*"
+    ],
+    [
+      17,
+      4,
+      0,
+      26,
+      0,
+      "*"
+    ],
+    [
+      18,
+      28,
+      2,
+      3,
+      0,
+      "*"
+    ],
+    [
+      19,
+      3,
+      0,
+      29,
+      0,
+      "*"
+    ],
+    [
+      20,
+      3,
+      1,
+      30,
+      0,
+      "*"
+    ],
+    [
+      22,
+      3,
+      2,
+      31,
+      0,
+      "*"
+    ],
+    [
+      23,
+      3,
+      2,
+      31,
+      1,
+      "*"
+    ],
+    [
+      25,
+      30,
+      1,
+      33,
+      0,
+      "*"
+    ],
+    [
+      26,
+      29,
+      1,
+      32,
+      0,
+      "*"
+    ],
+    [
+      27,
+      31,
+      1,
+      34,
+      0,
+      "*"
+    ],
+    [
+      28,
+      3,
+      10,
+      36,
+      0,
+      "*"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "Show_AgaveSunset",
+      "bounding": [
+        18615.9140625,
+        7454.26953125,
+        864.8074340820312,
+        1107.77587890625
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "Transforms_input_AgaveSunset",
+      "bounding": [
+        19570.900390625,
+        7460.5185546875,
+        861.46826171875,
+        1099.427978515625
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "compare_AgaveSunset",
+      "bounding": [
+        20491.63671875,
+        7469.603515625,
+        1282.942138671875,
+        1095.664794921875
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 4,
+      "title": "switch_AgaveSunset",
+      "bounding": [
+        18614.7109375,
+        8625.5009765625,
+        1160.8426513671875,
+        1097.7408447265625
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 5,
+      "title": "demux_AgaveSunset",
+      "bounding": [
+        19898.728515625,
+        8625.55859375,
+        1620.324462890625,
+        1094.981201171875
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ue_links": [],
+    "links_added_by_ue": [],
+    "ds": {
+      "scale": 0.30735605491428225,
+      "offset": [
+        -17157.95149446743,
+        -7246.904642604418
+      ]
+    },
+    "frontendVersion": "1.23.4",
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}
